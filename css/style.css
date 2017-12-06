@@ -352,6 +352,10 @@ p {
 .answer{
     text-align:center;
 }
+.cform{
+    margin-left: 200px;
+    padding-left: 40px;
+}
 
 @media only screen and (max-width: 979px) {
   h2 {

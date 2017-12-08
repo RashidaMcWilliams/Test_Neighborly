@@ -177,11 +177,13 @@
     font-weight:700;
 	margin-bottom: 25px;
 	text-align: center;
+    font-family: 'Carter One', cursive;
+    text-shadow: 1px 1px #000;
 }
 .camera_caption p {
 	font-size: 36px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Carter One', cursive;
 	font-weight: 300;
 	margin-top: 5%;
 }

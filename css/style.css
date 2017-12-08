@@ -7,10 +7,15 @@
 /*========================================================
 										Main layout styles
 =========================================================*/
+
+/*font-family: 'Lalezar', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Muli', sans-serif;*/
+
 body {
   /*background: #999999;*/
   background: #F6E8EA;
-  font: 14px/24px Georgia, 'Times New Roman', Times, serif;
+  font: 14px/24px 'Muli', sans-serif;
 }
 a {
   text-decoration: none;
@@ -66,12 +71,14 @@ h5 a:hover {
   color: #ffffff;
 }
 #header h1 a {
-  font: 700 44px/44px 'Open Sans', sans-serif;
+  font: 700 44px/44px 'Lalezar', cursive;
+  /*'Open Sans', sans-serif;*/
   color: #ffffff;
 }
 #header h1 span {
   display: block;
-  font: 24px/24px 'Marvel', sans-serif;
+  font: 24px/24px 'Muli', sans-serif; 
+  /*'Marvel', sans-serif;*/
 }
 #header nav {
   float: right;
@@ -111,7 +118,8 @@ h5 a:hover {
   color: #B8336A;
   font-size: 27px;
   margin-left: 29px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Lalezar', cursive;
+  /*'Marvel', sans-serif;*/
   margin-bottom: 30px;
   position: relative;
 }
@@ -255,11 +263,11 @@ h5 a:hover {
 h2,
 h3,
 h4 {
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #000000;
 }
 h2 {
-  font: 300 72px/72px 'Open Sans', sans-serif;
+  font: 300 72px/72px 'Lalezar', cursive;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -278,14 +286,14 @@ h2 span:before {
 }
 h3 {
   font-size: 50px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Lalezar', cursive;
   text-align: center;
   line-height: 50px;
 }
 h4 {
   font-size: 36px;
   line-height: 36px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Muli', sans-serif;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -293,7 +301,7 @@ h4 {
 h5 {
   font-size: 27px;
   line-height: 27px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Muli', sans-serif;
   text-align: center;
   margin-bottom: 20px;
   color: #000000;
@@ -302,7 +310,7 @@ h5 {
   color: #d94d3a;
 }
 p {
-  font: 14px/24px 'Open Sans', sans-serif;
+  font: 14px/24px 'Muli', sans-serif;
   color: #727070;
 }
 .full-width-container {
@@ -319,7 +327,8 @@ p {
   border: 1px solid #000000;
   background: #ffffff;
   display: inline-block;
-  font: 24px/46px 'Open Sans', sans-serif;
+  font: 24px/46px 'Lalezar', cursive;
+  /*'Open Sans', sans-serif;*/
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -359,7 +368,7 @@ p {
 
 @media only screen and (max-width: 979px) {
   h2 {
-    font: 300 62px/62px 'Open Sans', sans-serif;
+    font: 300 62px/62px 'Lalezar', cursive;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -367,17 +376,17 @@ p {
     display: none;
   }
   h3 {
-    font: 45px/45px 'Marvel', sans-serif;
+    font: 45px/45px 'Lalezar', cursive;
     text-align: center;
   }
   h4 {
-    font: 30px/30px 'Marvel', sans-serif;
+    font: 30px/30px 'Muli', sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   h5 {
-    font: 20px/20px 'Marvel', sans-serif;
+    font: 20px/20px 'Muli', sans-serif;
     text-align: center;
     margin-bottom: 20px;
     color: #000000;
@@ -385,7 +394,7 @@ p {
 }
 @media only screen and (max-width: 767px) {
   h2 {
-    font: 300 52px/52px 'Open Sans', sans-serif;
+    font: 300 52px/52px 'Lalezar', cursive;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -393,17 +402,17 @@ p {
     display: none;
   }
   h3 {
-    font: 45px/45px 'Marvel', sans-serif;
+    font: 45px/45px 'Lalezar', cursive;
     text-align: center;
   }
   h4 {
-    font: 25px/25px 'Marvel', sans-serif;
+    font: 25px/25px 'Muli', sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   h5 {
-    font: 20px/20px 'Marvel', sans-serif;
+    font: 20px/20px 'Muli', sans-serif;
     text-align: center;
     margin-bottom: 20px;
     color: #000000;
@@ -414,7 +423,7 @@ p {
 }
 @media only screen and (max-width: 479px) {
   h2 {
-    font: 300 42px/42px 'Open Sans', sans-serif;
+    font: 300 42px/42px 'Lalezar', cursive;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -422,17 +431,17 @@ p {
     display: none;
   }
   h3 {
-    font: 35px/35px 'Marvel', sans-serif;
+    font: 35px/35px 'Lalezar', cursive;
     text-align: center;
   }
   h4 {
-    font: 20px/20px 'Marvel', sans-serif;
+    font: 20px/20px 'Muli', sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   h5 {
-    font: 16px/16px 'Marvel', sans-serif;
+    font: 16px/16px 'Muli', sans-serif;
     text-align: center;
     margin-bottom: 20px;
     color: #000000;
@@ -492,7 +501,7 @@ p {
 }
 .index .block-4 .owl-text {
   font-size: 36px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #312f2f;
   text-align: center;
   margin-top: 40px;
@@ -581,7 +590,7 @@ p {
   color: #ffffff;
   background: #d94d3a;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lalezar', cursive;
 }
 @media only screen and (max-width: 979px) and (min-width: 768px) {
   .index-1 .block-3 .bd-ra {
@@ -642,7 +651,7 @@ p {
 }
 .index-3 .block-1 li a {
   color: #727070;
-  font: 14px/14px 'Open Sans', sans-serif;
+  font: 14px/14px 'Lalezar', cursive;
   text-decoration: underline;
 }
 .index-3 .block-1 li a:hover {
@@ -756,7 +765,7 @@ p {
 }
 #footer .copyright pre {
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
 }
